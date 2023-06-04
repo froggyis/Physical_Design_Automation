@@ -1,0 +1,32 @@
+--How to Compile  
+  In this directory, enter the following command:  
+
+  $ make  
+  It will generate the executable files "hw5" in "HW5/bin/".  
+
+  If you want to remove it, simply enter the following command:  
+  $ make clean  
+
+--How to Run  
+  In this directory, enter the following command:  
+  Usage: ../bin/<exe> <k-value: 4, 16...> <.def file>  
+  e.g.:  
+  ../bin/hw5 4 ../output/CS_4.def  
+
+
+  In "HW5/bin/", enter the following command:  
+  Usage: ./<exe> <k-value: 4, 16...> <.def file>  
+  e.g.:  
+  $ ./hw3 4 ../output/CS_4.def 
+
+  In this directory, enter the following commands:
+  Usage: bash run.sh
+  e.g.:
+  $ bash run.sh
+
+
+--How to Verify  
+  In this directory, enter the following command:  
+  Usage: ../verifier/Verify <k-value: 4, 16...> <.def file>  
+  e.g.:  
+  $ ../verifier/verify 4 ../output/CS_4.def 
